@@ -1,0 +1,2126 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "%@ lost its connection.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@: utracono połączenie."
+          }
+        }
+      }
+    },
+    "%@ — not connected now": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@ — teraz bez połączenia"
+          }
+        }
+      }
+    },
+    "%@: was %@, now %@.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@: było %2$@, jest %3$@."
+          }
+        }
+      }
+    },
+    "%llu errors": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "błędy: %llu"
+          }
+        }
+      }
+    },
+    "2.5 Gb/s": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2,5 Gb/s"
+          }
+        }
+      }
+    },
+    "2.5G": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2,5G"
+          }
+        }
+      }
+    },
+    "A network folder goes the way the system sends it.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Udział sieciowy idzie trasą wybraną przez system — karty nie da się wskazać."
+          }
+        }
+      }
+    },
+    "A newer version is available": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jest nowsza wersja"
+          }
+        }
+      }
+    },
+    "Add": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dodaj"
+          }
+        }
+      }
+    },
+    "Add Server": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dodaj serwer"
+          }
+        }
+      }
+    },
+    "Address": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Adres"
+          }
+        }
+      }
+    },
+    "Address: %@": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Adres: %@"
+          }
+        }
+      }
+    },
+    "All": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wszystko"
+          }
+        }
+      }
+    },
+    "Another Mac with NetTorque finds this one under Servers → Found on the network and pairs with the code. Every connection has to prove it knows the code; after five wrong codes from one address NetTorque turns that address away for ten minutes, and Macs that already showed the right code keep getting in. Test data is random and is never stored. A new code ends every pairing.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inny Mac z NetTorque znajdzie tego Maca w sekcji Serwery → Znalezione w sieci i sparuje się z nim kodem. Każde połączenie musi udowodnić, że zna kod; po pięciu złych kodach z jednego adresu NetTorque blokuje ten adres na dziesięć minut, a Maki, które już podały dobry kod, łączą się dalej. Dane testu są losowe i nigdzie się nie zapisują. Nowy kod kończy każde parowanie."
+          }
+        }
+      }
+    },
+    "Approve it in System Settings → General → Login Items & Extensions.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zatwierdź w Ustawieniach systemowych → Ogólne → Rzeczy i rozszerzenia otwierane podczas logowania."
+          }
+        }
+      }
+    },
+    "Automatically": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Automatycznie"
+          }
+        }
+      }
+    },
+    "Best so far: %@": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Najlepsza dotąd: %@"
+          }
+        }
+      }
+    },
+    "Cancel": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Anuluj"
+          }
+        }
+      }
+    },
+    "Card supports": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Karta obsługuje"
+          }
+        }
+      }
+    },
+    "Card supports %@": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Karta obsługuje %@"
+          }
+        }
+      }
+    },
+    "Card: %@": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Karta: %@"
+          }
+        }
+      }
+    },
+    "Check Now": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sprawdź teraz"
+          }
+        }
+      }
+    },
+    "Check for Updates…": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sprawdź aktualizacje…"
+          }
+        }
+      }
+    },
+    "Check for updates once a month": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sprawdzaj aktualizacje raz w miesiącu"
+          }
+        }
+      }
+    },
+    "Choose…": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wybierz…"
+          }
+        }
+      }
+    },
+    "Clear": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wyczyść"
+          }
+        }
+      }
+    },
+    "Clear History": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wyczyść historię"
+          }
+        }
+      }
+    },
+    "Clear History…": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wyczyść historię…"
+          }
+        }
+      }
+    },
+    "Clear the result from the window — it stays in the history": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usuwa wynik z okna — zostaje w historii"
+          }
+        }
+      }
+    },
+    "Clear the whole history?": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wyczyścić całą historię?"
+          }
+        }
+      }
+    },
+    "Close": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zamknij"
+          }
+        }
+      }
+    },
+    "Code": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kod"
+          }
+        }
+      }
+    },
+    "Code for pairing": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kod do parowania"
+          }
+        }
+      }
+    },
+    "Connect in Finder…": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Połącz w Finderze…"
+          }
+        }
+      }
+    },
+    "Connecting to %@…": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Łączenie z %@…"
+          }
+        }
+      }
+    },
+    "Copy": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kopiuj"
+          }
+        }
+      }
+    },
+    "Copy as Image": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kopiuj jako obrazek"
+          }
+        }
+      }
+    },
+    "Could not check for updates": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nie udało się sprawdzić aktualizacji"
+          }
+        }
+      }
+    },
+    "Could not download the new version.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nie udało się pobrać nowej wersji."
+          }
+        }
+      }
+    },
+    "Could not install the new version. The app keeps running the current one.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nie udało się zainstalować nowej wersji. Program dalej działa w obecnej wersji."
+          }
+        }
+      }
+    },
+    "Cut": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wytnij"
+          }
+        }
+      }
+    },
+    "Detect": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wykryj"
+          }
+        }
+      }
+    },
+    "Direction": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kierunek"
+          }
+        }
+      }
+    },
+    "Disk to Disk": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Z dysku na dysk"
+          }
+        }
+      }
+    },
+    "Download": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pobieranie"
+          }
+        }
+      }
+    },
+    "Download manually and replace it yourself": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pobierz ręcznie i zastąp program samodzielnie"
+          }
+        }
+      }
+    },
+    "Downloading": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pobieranie"
+          }
+        }
+      }
+    },
+    "Downloading and verifying the package…": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pobieram i sprawdzam paczkę…"
+          }
+        }
+      }
+    },
+    "Duplex": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dupleks"
+          }
+        }
+      }
+    },
+    "Edit": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Edycja"
+          }
+        }
+      }
+    },
+    "Energy saving (EEE)": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oszczędzanie energii (EEE)"
+          }
+        }
+      }
+    },
+    "Enter the server address in the settings (the gear in the corner).": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wpisz adres serwera w ustawieniach (zębatka w rogu)."
+          }
+        }
+      }
+    },
+    "Error: %@ has no IPv4 address — %@": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Błąd: %1$@ nie ma adresu IPv4 — %2$@"
+          }
+        }
+      }
+    },
+    "Error: %@ — %@": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Błąd: %1$@ — %2$@"
+          }
+        }
+      }
+    },
+    "Error: %lld of %lld bytes arrived — %@": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Błąd: dotarło %1$lld z %2$lld bajtów — %3$@"
+          }
+        }
+      }
+    },
+    "Errors since link up": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Błędy od nawiązania łącza"
+          }
+        }
+      }
+    },
+    "Export CSV…": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Eksportuj CSV…"
+          }
+        }
+      }
+    },
+    "First fill in the address of the server you already added": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Najpierw wpisz adres serwera dodanego wcześniej"
+          }
+        }
+      }
+    },
+    "Flow control": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kontrola przepływu"
+          }
+        }
+      }
+    },
+    "Folder for the Test File": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Folder na plik testowy"
+          }
+        }
+      }
+    },
+    "Folder on This Mac": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Folder na tym Macu"
+          }
+        }
+      }
+    },
+    "Found on the network": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Znalezione w sieci"
+          }
+        }
+      }
+    },
+    "From Memory": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Z pamięci"
+          }
+        }
+      }
+    },
+    "Half duplex": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Półdupleks"
+          }
+        }
+      }
+    },
+    "History": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Historia"
+          }
+        }
+      }
+    },
+    "History…": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Historia…"
+          }
+        }
+      }
+    },
+    "IP, name or SSH alias": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "IP, nazwa albo alias SSH"
+          }
+        }
+      }
+    },
+    "Icon and last result": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ikonka i ostatni wynik"
+          }
+        }
+      }
+    },
+    "Icon and link speed": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ikonka i prędkość łącza"
+          }
+        }
+      }
+    },
+    "Icon only": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sama ikonka"
+          }
+        }
+      }
+    },
+    "In the Menu Bar": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Na pasku menu"
+          }
+        }
+      }
+    },
+    "Install and Restart": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zainstaluj i uruchom ponownie"
+          }
+        }
+      }
+    },
+    "Installing — the app will restart in a moment…": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Instaluję — za chwilę program uruchomi się ponownie…"
+          }
+        }
+      }
+    },
+    "Internet": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Internet"
+          }
+        }
+      }
+    },
+    "Language": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Język"
+          }
+        }
+      }
+    },
+    "Last checked %@": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ostatnio sprawdzone %@"
+          }
+        }
+      }
+    },
+    "Link": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Łącze"
+          }
+        }
+      }
+    },
+    "Link slowed to %@": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Łącze zwolniło do %@"
+          }
+        }
+      }
+    },
+    "Link speed: %@": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Prędkość łącza: %@"
+          }
+        }
+      }
+    },
+    "MB/s": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "MB/s"
+          }
+        }
+      }
+    },
+    "MTU": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "MTU"
+          }
+        }
+      }
+    },
+    "Mac": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mac"
+          }
+        }
+      }
+    },
+    "Minimize": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Minimalizuj"
+          }
+        }
+      }
+    },
+    "Mode": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tryb"
+          }
+        }
+      }
+    },
+    "Mounted in Finder": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zamontowane w Finderze"
+          }
+        }
+      }
+    },
+    "Name": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nazwa"
+          }
+        }
+      }
+    },
+    "Name from the system: %@": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nazwa z systemu: %@"
+          }
+        }
+      }
+    },
+    "Name in Results": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nazwa w wynikach"
+          }
+        }
+      }
+    },
+    "NetTorque": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "NetTorque"
+          }
+        }
+      }
+    },
+    "NetTorque History": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Historia NetTorque"
+          }
+        }
+      }
+    },
+    "NetTorque Settings": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ustawienia NetTorque"
+          }
+        }
+      }
+    },
+    "NetTorque signs in with an SSH key, like `ssh <address>` in Terminal — it never asks for a password. A network folder is one mounted in Finder; the test writes a file there and reads it back. The test file is always removed.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "NetTorque loguje się kluczem SSH, jak `ssh <adres>` w Terminalu — nigdy nie pyta o hasło. Folder sieciowy to udział zamontowany w Finderze; test zapisuje tam plik i czyta go z powrotem. Plik testowy jest zawsze usuwany."
+          }
+        }
+      }
+    },
+    "NetTorque — Update": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "NetTorque — Aktualizacja"
+          }
+        }
+      }
+    },
+    "Network Card": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Karta sieciowa"
+          }
+        }
+      }
+    },
+    "Network folder (SMB, NFS)": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Folder sieciowy (SMB, NFS)"
+          }
+        }
+      }
+    },
+    "New Code": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nowy kod"
+          }
+        }
+      }
+    },
+    "New Server": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nowy serwer"
+          }
+        }
+      }
+    },
+    "No results yet — every finished test lands here.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nie ma jeszcze wyników — trafia tu każdy skończony test."
+          }
+        }
+      }
+    },
+    "Not enough space %@ — %@": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Za mało miejsca %1$@ — %2$@"
+          }
+        }
+      }
+    },
+    "Notifications and Startup": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Powiadomienia i start"
+          }
+        }
+      }
+    },
+    "Notifications for NetTorque are turned off in System Settings → Notifications.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Powiadomienia NetTorque są wyłączone w Ustawieniach systemowych → Powiadomienia."
+          }
+        }
+      }
+    },
+    "Notify when the link is lost or slows down": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Powiadamiaj o utracie połączenia i spadku prędkości"
+          }
+        }
+      }
+    },
+    "On the List": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Na liście"
+          }
+        }
+      }
+    },
+    "Open NetTorque Window…": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Otwórz okno NetTorque…"
+          }
+        }
+      }
+    },
+    "Open NetTorque at Login": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Uruchamiaj NetTorque razem z systemem"
+          }
+        }
+      }
+    },
+    "Open at login: %@": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Uruchamianie z systemem: %@"
+          }
+        }
+      }
+    },
+    "Pair": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sparuj"
+          }
+        }
+      }
+    },
+    "Pair with %@": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Parowanie z %@"
+          }
+        }
+      }
+    },
+    "Pair…": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sparuj…"
+          }
+        }
+      }
+    },
+    "Paste": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wklej"
+          }
+        }
+      }
+    },
+    "Preparing the file": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Przygotowanie pliku"
+          }
+        }
+      }
+    },
+    "Quit NetTorque": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zakończ NetTorque"
+          }
+        }
+      }
+    },
+    "Receive tests from other Macs": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Przyjmuj testy od innych Maków"
+          }
+        }
+      }
+    },
+    "Receiving does not work: %@": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Przyjmowanie nie działa: %@"
+          }
+        }
+      }
+    },
+    "Redo": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Przywróć"
+          }
+        }
+      }
+    },
+    "Remove This Server": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usuń ten serwer"
+          }
+        }
+      }
+    },
+    "Reset": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wyzeruj"
+          }
+        }
+      }
+    },
+    "Restart NetTorque": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Uruchom ponownie NetTorque"
+          }
+        }
+      }
+    },
+    "SMB share": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "udział SMB"
+          }
+        }
+      }
+    },
+    "SSH": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "SSH"
+          }
+        }
+      }
+    },
+    "SSH User": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Użytkownik SSH"
+          }
+        }
+      }
+    },
+    "SSH error: %@ — %@": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Błąd SSH: %1$@ — %2$@"
+          }
+        }
+      }
+    },
+    "SSH server": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Serwer SSH"
+          }
+        }
+      }
+    },
+    "Save Image…": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zapisz obrazek…"
+          }
+        }
+      }
+    },
+    "Select All": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zaznacz wszystko"
+          }
+        }
+      }
+    },
+    "Server": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Serwer"
+          }
+        }
+      }
+    },
+    "Servers": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Serwery"
+          }
+        }
+      }
+    },
+    "Settings": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ustawienia"
+          }
+        }
+      }
+    },
+    "Settings…": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ustawienia…"
+          }
+        }
+      }
+    },
+    "Show": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pokaż"
+          }
+        }
+      }
+    },
+    "Show the Mac and server names on the result picture": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pokazuj nazwy Maca i serwera na obrazku z wynikiem"
+          }
+        }
+      }
+    },
+    "Since the link came up the card counted %llu transmission errors — usually a damaged cable or plug.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Od nawiązania łącza karta naliczyła błędy transmisji (%llu) — zwykle to uszkodzony kabel albo wtyk."
+          }
+        }
+      }
+    },
+    "Size": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rozmiar"
+          }
+        }
+      }
+    },
+    "Skip This Version": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pomiń tę wersję"
+          }
+        }
+      }
+    },
+    "Slower Than": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Spadek poniżej"
+          }
+        }
+      }
+    },
+    "Stop": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Przerwij"
+          }
+        }
+      }
+    },
+    "Stop Test": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Przerwij test"
+          }
+        }
+      }
+    },
+    "System": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Systemowy"
+          }
+        }
+      }
+    },
+    "Target": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cel"
+          }
+        }
+      }
+    },
+    "Test": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Testuj"
+          }
+        }
+      }
+    },
+    "Test stopped — %@": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Test przerwany — %@"
+          }
+        }
+      }
+    },
+    "Test: %@": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Testuj: %@"
+          }
+        }
+      }
+    },
+    "Tested Server": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Testowany serwer"
+          }
+        }
+      }
+    },
+    "Tests from Other Macs": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Testy od innych Maków"
+          }
+        }
+      }
+    },
+    "The app downloads the new version, checks it, replaces itself and restarts. Your settings and history stay.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Program pobierze nową wersję, sprawdzi ją, podmieni się i uruchomi ponownie. Ustawienia i historia zostają."
+          }
+        }
+      }
+    },
+    "The app is busy — click again in a moment.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Program jest zajęty — kliknij ponownie za chwilę."
+          }
+        }
+      }
+    },
+    "The app sits where it cannot be overwritten (e.g. opened straight from Downloads). Move it to the Applications folder or download the new version manually.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Program leży w miejscu, którego nie da się nadpisać (np. otwarty prosto z folderu Pobrane). Przenieś go do folderu Programy albo pobierz nową wersję ręcznie."
+          }
+        }
+      }
+    },
+    "The best speed of this card": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "najlepszej prędkości tej karty"
+          }
+        }
+      }
+    },
+    "The card supports %@, but the link runs at %@. Check that the cable goes to a fast switch port, not a slower router, and that it is %@ or better.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Karta obsługuje %1$@, a łącze działa na %2$@. Sprawdź, czy kabel idzie do szybkiego portu switcha, a nie do wolniejszego routera, i czy to kabel %3$@ albo lepszy."
+          }
+        }
+      }
+    },
+    "The link runs half duplex — the two ends negotiated badly. Replug the cable or set the switch port to Auto.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Łącze działa w półdupleksie — oba końce źle uzgodniły parametry połączenia. Wepnij kabel ponownie albo ustaw port switcha na Auto."
+          }
+        }
+      }
+    },
+    "The new language appears after NetTorque restarts.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nowy język pojawi się po ponownym uruchomieniu NetTorque’a."
+          }
+        }
+      }
+    },
+    "The new version is installed, but the restart failed. Quit and reopen the app manually.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nowa wersja jest zainstalowana, ale restart się nie udał. Zamknij i otwórz program ręcznie."
+          }
+        }
+      }
+    },
+    "The package address leads outside fractal8.eu — the app will not download it.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Adres paczki prowadzi poza serwer fractal8.eu — program jej nie pobierze."
+          }
+        }
+      }
+    },
+    "This Mac": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ten Mac"
+          }
+        }
+      }
+    },
+    "This folder is not on a network share — the test would measure a disk of this Mac.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ten folder nie leży na udziale sieciowym — test zmierzyłby dysk tego Maca."
+          }
+        }
+      }
+    },
+    "Through": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Przez"
+          }
+        }
+      }
+    },
+    "Time": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Czas"
+          }
+        }
+      }
+    },
+    "Type": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rodzaj"
+          }
+        }
+      }
+    },
+    "Type the 6-digit code shown on that Mac in Settings → Tests from Other Macs.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wpisz 6-cyfrowy kod, który tamten Mac pokazuje w Ustawieniach → Testy od innych Maków."
+          }
+        }
+      }
+    },
+    "Undo": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cofnij"
+          }
+        }
+      }
+    },
+    "Upload": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wysyłanie"
+          }
+        }
+      }
+    },
+    "Uploading": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wysyłanie"
+          }
+        }
+      }
+    },
+    "Version": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wersja"
+          }
+        }
+      }
+    },
+    "Version %@.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wersja %@."
+          }
+        }
+      }
+    },
+    "Watched Card": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pilnowana karta"
+          }
+        }
+      }
+    },
+    "When": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kiedy"
+          }
+        }
+      }
+    },
+    "Window": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Okno"
+          }
+        }
+      }
+    },
+    "Wired connection lost": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Utracono połączenie kablowe"
+          }
+        }
+      }
+    },
+    "Wi‑Fi %@ Mb/s": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wi‑Fi %@ Mb/s"
+          }
+        }
+      }
+    },
+    "Wi‑Fi changes its speed all the time, so on Wi‑Fi NetTorque only tells you when the connection is lost.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Prędkość Wi‑Fi cały czas się zmienia, więc przy Wi‑Fi NetTorque powiadamia tylko o utracie połączenia."
+          }
+        }
+      }
+    },
+    "Wi‑Fi connection lost": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Utracono połączenie Wi‑Fi"
+          }
+        }
+      }
+    },
+    "Writing to %@…": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zapisuję na %@…"
+          }
+        }
+      }
+    },
+    "You are up to date": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Masz najnowszą wersję"
+          }
+        }
+      }
+    },
+    "You have %@, version %@ is available.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Masz %@, dostępna jest %@."
+          }
+        }
+      }
+    },
+    "as in ~/.ssh/config": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "jak w ~/.ssh/config"
+          }
+        }
+      }
+    },
+    "cannot create the test file": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "nie da się utworzyć pliku testowego"
+          }
+        }
+      }
+    },
+    "cannot read %@": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "nie da się odczytać %@"
+          }
+        }
+      }
+    },
+    "cannot write %@": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "nie da się zapisać %@"
+          }
+        }
+      }
+    },
+    "disk to disk": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "z dysku na dysk"
+          }
+        }
+      }
+    },
+    "e.g. /Volumes/nas": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "np. /Volumes/nas"
+          }
+        }
+      }
+    },
+    "e.g. /tmp": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "np. /tmp"
+          }
+        }
+      }
+    },
+    "e.g. nas": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "np. nas"
+          }
+        }
+      }
+    },
+    "from memory": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "z pamięci"
+          }
+        }
+      }
+    },
+    "full": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "pełny"
+          }
+        }
+      }
+    },
+    "half": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "pół"
+          }
+        }
+      }
+    },
+    "in the folder": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "w folderze"
+          }
+        }
+      }
+    },
+    "no connection": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "brak połączenia"
+          }
+        }
+      }
+    },
+    "no description": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "brak opisu"
+          }
+        }
+      }
+    },
+    "not known yet": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "jeszcze nieznana"
+          }
+        }
+      }
+    },
+    "off": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "wył."
+          }
+        }
+      }
+    },
+    "on": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "wł."
+          }
+        }
+      }
+    },
+    "on the Mac": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "na Macu"
+          }
+        }
+      }
+    },
+    "on the server in %@": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "na serwerze w %@"
+          }
+        }
+      }
+    },
+    "other speed": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "inna prędkość"
+          }
+        }
+      }
+    },
+    "reading was interrupted": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "odczyt się przerwał"
+          }
+        }
+      }
+    },
+    "the folder %@ is not there — is the share mounted?": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "folderu %@ nie ma — czy udział jest zamontowany?"
+          }
+        }
+      }
+    },
+    "the other Mac closed the connection": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "drugi Mac zamknął połączenie"
+          }
+        }
+      }
+    },
+    "the other Mac did not accept the code — pair it again": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "drugi Mac nie przyjął kodu — sparuj go ponownie"
+          }
+        }
+      }
+    },
+    "the other Mac did not answer — is it on, with receiving turned on?": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "drugi Mac nie odpowiada — czy jest włączony i ma włączone przyjmowanie testów?"
+          }
+        }
+      }
+    },
+    "the other Mac does not respond like NetTorque": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "po drugiej stronie nie odpowiada NetTorque"
+          }
+        }
+      }
+    },
+    "the other Mac does not take a test this large": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "drugi Mac nie przyjmie tak dużego testu"
+          }
+        }
+      }
+    },
+    "the other Mac is already running a test": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "drugi Mac właśnie wykonuje inny test"
+          }
+        }
+      }
+    },
+    "the other Mac refuses tests for ten minutes after wrong codes": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "drugi Mac po złych kodach odmawia testów przez dziesięć minut"
+          }
+        }
+      }
+    },
+    "the server cannot be reached. If it is on, check that NetTorque may use the local network: System Settings → Privacy & Security → Local Network.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "serwer jest nieosiągalny. Jeśli działa, sprawdź, czy NetTorque ma dostęp do sieci lokalnej: Ustawienia systemowe → Prywatność i ochrona → Sieć lokalna."
+          }
+        }
+      }
+    },
+    "the server closed the connection before the start": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "serwer zamknął połączenie przed startem"
+          }
+        }
+      }
+    },
+    "the server did not accept this Mac's SSH key. Add it on the server, e.g. in Terminal: ssh-copy-id %@.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "serwer nie przyjął klucza SSH tego Maca. Dodaj go na serwerze, np. w Terminalu: ssh-copy-id %@."
+          }
+        }
+      }
+    },
+    "there is no folder %@ on the server": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "nie ma folderu %@ na serwerze"
+          }
+        }
+      }
+    },
+    "this Mac does not know the server's key yet. Connect once in Terminal: ssh %@, check that the key fingerprint it shows is the server's, and answer yes.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ten Mac nie zna jeszcze klucza serwera. Połącz się raz w Terminalu: ssh %@, sprawdź, czy pokazany odcisk klucza należy do serwera, i odpowiedz yes."
+          }
+        }
+      }
+    },
+    "unnamed": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "bez nazwy"
+          }
+        }
+      }
+    },
+    "writing to the Mac's disk was interrupted": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "zapis na dysk Maca się przerwał"
+          }
+        }
+      }
+    },
+    "writing was interrupted": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "zapis się przerwał"
+          }
+        }
+      }
+    },
+    "⚠ %@ — check the cable": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "⚠ %@ — sprawdź kabel"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

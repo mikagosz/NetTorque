@@ -1,0 +1,23 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "NSLocalNetworkUsageDescription": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "NetTorque looks for SSH servers and network shares on your network, and tests the speed to them."
+          }
+        },
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "NetTorque szuka serwerów SSH i udziałów sieciowych w Twojej sieci i mierzy do nich prędkość."
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}
