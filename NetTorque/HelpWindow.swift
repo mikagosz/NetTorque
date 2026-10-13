@@ -1,7 +1,7 @@
 import AppKit
 import SwiftUI
 
-// The Help window, laid out like Apple's guides: a big title, then sections with a picture of the app on one
+// The Help window: a big title, then sections with a picture of the app on one
 // side and the steps on the other, sides taking turns. Numbered points on a picture match the numbered steps.
 //
 // The pictures are drawn by NetTorque itself, on sample data (server "NAS" at 192.0.2.10, "Mac", en5): the icons

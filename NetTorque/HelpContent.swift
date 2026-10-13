@@ -1,6 +1,6 @@
 import Foundation
 
-/// What the Help window says, laid out like Apple's guides: each section is a picture of the app with numbered
+/// What the Help window says: each section is a picture of the app with numbered
 /// points and the same numbers in the steps next to it. English source; the Polish text is in Localizable.xcstrings
 /// (Tests/main.swift checks every string has its translation).
 enum HelpContent {
