@@ -61,6 +61,16 @@
         }
       }
     },
+    "A network folder": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Folder sieciowy"
+          }
+        }
+      }
+    },
     "A network folder goes the way the system sends it.": {
       "localizations": {
         "pl": {
@@ -77,6 +87,36 @@
           "stringUnit": {
             "state": "translated",
             "value": "Jest nowsza wersja"
+          }
+        }
+      }
+    },
+    "A notification when the link is lost or slows down, and Open NetTorque at Login.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Powiadomienie o utracie łącza albo spadku prędkości i „Uruchamiaj NetTorque razem z systemem”."
+          }
+        }
+      }
+    },
+    "A server is any computer you can reach with SSH — a NAS, a Linux box or another Mac. NetTorque logs in with your SSH key and never asks for a password.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Serwer to każdy komputer, do którego wejdziesz przez SSH — NAS, komputer z Linuksem albo inny Mac. NetTorque loguje się Twoim kluczem SSH i nigdy nie pyta o hasło."
+          }
+        }
+      }
+    },
+    "A share mounted in Finder (SMB, NFS) can be the target too. The test writes a file there and reads it back, the way the system sends it.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Celem może być też udział zamontowany w Finderze (SMB, NFS). Test zapisuje tam plik i czyta go z powrotem, drogą, którą wybierze system."
           }
         }
       }
@@ -111,6 +151,16 @@
         }
       }
     },
+    "Address (IP, host name or an ~/.ssh/config alias) and SSH user.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Adres (IP, nazwa albo alias z ~/.ssh/config) i użytkownik SSH."
+          }
+        }
+      }
+    },
     "Address: %@": {
       "localizations": {
         "pl": {
@@ -127,6 +177,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Wszystko"
+          }
+        }
+      }
+    },
+    "Another Mac as the server": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Inny Mac jako serwer"
           }
         }
       }
@@ -161,12 +221,32 @@
         }
       }
     },
+    "Backup": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kopia"
+          }
+        }
+      }
+    },
     "Best so far: %@": {
       "localizations": {
         "pl": {
           "stringUnit": {
             "state": "translated",
             "value": "Najlepsza dotąd: %@"
+          }
+        }
+      }
+    },
+    "Blue 1 Gb/s, green 2.5 Gb/s, orange 5 Gb/s, purple 10 Gb/s.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Niebieski 1 Gb/s, zielony 2,5 Gb/s, pomarańczowy 5 Gb/s, fioletowy 10 Gb/s."
           }
         }
       }
@@ -217,6 +297,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Sprawdź teraz"
+          }
+        }
+      }
+    },
+    "Check first that ssh <address> in Terminal logs in without a password. If not, ssh-copy-id <address> puts your key on the server. Servers found on the network are listed under the list, with Add next to them.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Najpierw sprawdź, czy ssh <adres> w Terminalu loguje bez hasła. Jeśli nie, ssh-copy-id <adres> wgra Twój klucz na serwer. Serwery znalezione w sieci są wypisane pod listą, z przyciskiem „Dodaj” obok."
           }
         }
       }
@@ -277,6 +367,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Wyczyść historię…"
+          }
+        }
+      }
+    },
+    "Clear empties the window; the result stays in the history. The shared picture says \"Mac\" and \"Server\" unless Show the Mac and server names on the result picture is on in the settings.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "„Wyczyść” opróżnia okno; wynik zostaje w historii. Na udostępnionym obrazku jest „Mac” i „Serwer”, chyba że w ustawieniach włączysz „Pokazuj nazwy Maca i serwera na obrazku z wynikiem”."
           }
         }
       }
@@ -411,6 +511,16 @@
         }
       }
     },
+    "Data goes through SSH and gets encrypted. On a 5 GbE link expect about 400–460 MB/s rather than the line's ~590 MB/s. From Memory shows the link; Disk to Disk adds both disks.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dane idą przez SSH i są szyfrowane. Na łączu 5 GbE spodziewaj się ok. 400–460 MB/s zamiast ~590 MB/s samej linii. „Z pamięci” pokazuje łącze; „Z dysku na dysk” dokłada oba dyski."
+          }
+        }
+      }
+    },
     "Detect": {
       "localizations": {
         "pl": {
@@ -437,6 +547,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Z dysku na dysk"
+          }
+        }
+      }
+    },
+    "Double-click NetTorque in Finder to open the window. At login it starts quietly in the menu bar. NetTorque shows in the Dock only while one of its windows is open.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dwuklik w NetTorque w Finderze otwiera okno. Przy logowaniu program startuje po cichu na pasku menu. W Docku widać go tylko wtedy, gdy jest otwarte któreś z jego okien."
           }
         }
       }
@@ -487,6 +607,26 @@
           "stringUnit": {
             "state": "translated",
             "value": "Dupleks"
+          }
+        }
+      }
+    },
+    "Each direction gets its own number, in the colour of the device that sends.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Każdy kierunek ma własną liczbę, w kolorze urządzenia, które wysyła."
+          }
+        }
+      }
+    },
+    "Each test: when, where to, the mode, the speeds and the card it went through.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Każdy test: kiedy, dokąd, tryb, prędkości i karta, przez którą szedł."
           }
         }
       }
@@ -561,12 +701,32 @@
         }
       }
     },
+    "Every finished test is kept, so you can see whether the link holds its speed over time.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Każdy skończony test zostaje zapisany, więc widać, czy łącze trzyma prędkość w czasie."
+          }
+        }
+      }
+    },
     "Export CSV…": {
       "localizations": {
         "pl": {
           "stringUnit": {
             "state": "translated",
             "value": "Eksportuj CSV…"
+          }
+        }
+      }
+    },
+    "Export CSV… saves the table for a spreadsheet; Clear History… empties it.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "„Eksportuj CSV…” zapisuje tabelę do arkusza; „Wyczyść historię…” ją opróżnia."
           }
         }
       }
@@ -601,6 +761,16 @@
         }
       }
     },
+    "Folder for the test file in Disk to Disk.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Folder na plik testowy w trybie „Z dysku na dysk”."
+          }
+        }
+      }
+    },
     "Folder on This Mac": {
       "localizations": {
         "pl": {
@@ -631,12 +801,62 @@
         }
       }
     },
+    "From Memory sends generated data, so disks take no part. Disk to Disk copies a file from the Mac's disk to the server's disk and back.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "„Z pamięci” wysyła wygenerowane dane, dyski nie biorą udziału. „Z dysku na dysk” kopiuje plik z dysku Maca na dysk serwera i z powrotem."
+          }
+        }
+      }
+    },
+    "Getting started with NetTorque": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pierwsze kroki z NetTorque"
+          }
+        }
+      }
+    },
+    "Good to know": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dobrze wiedzieć"
+          }
+        }
+      }
+    },
+    "Grey: another speed, such as 100 Mb/s. Grey with a red slash: no cable link.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Szary: inna prędkość, np. 100 Mb/s. Szary z czerwonym przekreśleniem: brak łącza kablowego."
+          }
+        }
+      }
+    },
     "Half duplex": {
       "localizations": {
         "pl": {
           "stringUnit": {
             "state": "translated",
             "value": "Półdupleks"
+          }
+        }
+      }
+    },
+    "Help": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pomoc"
           }
         }
       }
@@ -711,6 +931,16 @@
         }
       }
     },
+    "In the window pick how to test, where to and how much data, then press Test.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "W oknie wybierz, jak testować, dokąd i ile danych, a potem kliknij „Testuj”."
+          }
+        }
+      }
+    },
     "Install and Restart": {
       "localizations": {
         "pl": {
@@ -751,12 +981,52 @@
         }
       }
     },
+    "Language: System, Polski or English; Restart NetTorque applies it.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Język: Systemowy, Polski albo English; „Uruchom ponownie NetTorque” go włącza."
+          }
+        }
+      }
+    },
     "Last checked %@": {
       "localizations": {
         "pl": {
           "stringUnit": {
             "state": "translated",
             "value": "Ostatnio sprawdzone %@"
+          }
+        }
+      }
+    },
+    "Left click and right click": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lewy i prawy klik"
+          }
+        }
+      }
+    },
+    "Left click the icon for the test window. Right click (or Control-click) for the menu.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lewy klik w ikonkę otwiera okno testu. Prawy klik (albo Control-klik) — menu."
+          }
+        }
+      }
+    },
+    "Less": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mniej"
           }
         }
       }
@@ -821,6 +1091,16 @@
         }
       }
     },
+    "Measure the link": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pomiar łącza"
+          }
+        }
+      }
+    },
     "Minimize": {
       "localizations": {
         "pl": {
@@ -837,6 +1117,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Tryb"
+          }
+        }
+      }
+    },
+    "More": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Więcej"
           }
         }
       }
@@ -881,12 +1171,42 @@
         }
       }
     },
+    "Native macOS software, built to a single pattern.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Natywne programy dla macOS, budowane według jednego wzoru."
+          }
+        }
+      }
+    },
     "NetTorque": {
       "localizations": {
         "pl": {
           "stringUnit": {
             "state": "translated",
             "value": "NetTorque"
+          }
+        }
+      }
+    },
+    "NetTorque Help": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pomoc NetTorque"
+          }
+        }
+      }
+    },
+    "NetTorque Help…": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pomoc NetTorque…"
           }
         }
       }
@@ -1061,6 +1381,36 @@
         }
       }
     },
+    "Open it with the clock under the gear in the window, or from the menu. NetTorque keeps the last 500 tests in ~/Library/Application Support/com.mikagosz.NetTorque/history.json.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Otworzysz ją zegarem pod zębatką w oknie albo z menu. NetTorque trzyma ostatnie 500 testów w ~/Library/Application Support/com.mikagosz.NetTorque/history.json."
+          }
+        }
+      }
+    },
+    "Open the window, the history or the settings.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Otwórz okno, historię albo ustawienia."
+          }
+        }
+      }
+    },
+    "Open them with the gear in the window or Settings… in the menu.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Otworzysz je zębatką w oknie albo „Ustawienia…” w menu."
+          }
+        }
+      }
+    },
     "Pair": {
       "localizations": {
         "pl": {
@@ -1117,6 +1467,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Zakończ NetTorque"
+          }
+        }
+      }
+    },
+    "Reading the result": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Jak czytać wynik"
           }
         }
       }
@@ -1231,12 +1591,32 @@
         }
       }
     },
+    "SSH server, network folder (SMB, NFS) or another Mac running NetTorque.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Serwer SSH, folder sieciowy (SMB, NFS) albo inny Mac z NetTorque."
+          }
+        }
+      }
+    },
     "Save Image…": {
       "localizations": {
         "pl": {
           "stringUnit": {
             "state": "translated",
             "value": "Zapisz obrazek…"
+          }
+        }
+      }
+    },
+    "See your wired link speed at a glance, and measure it in one click. The icon in the menu bar shows how fast the cable link is; the window copies data to a server and back and tells you how fast it really goes.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Prędkość łącza kablowego widać od razu, a zmierzysz ją jednym kliknięciem. Ikonka na pasku menu pokazuje, jak szybkie jest łącze; okno kopiuje dane na serwer i z powrotem i mówi, ile naprawdę przechodzi."
           }
         }
       }
@@ -1301,6 +1681,16 @@
         }
       }
     },
+    "Show one server or all of them.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pokaż jeden serwer albo wszystkie."
+          }
+        }
+      }
+    },
     "Show the Mac and server names on the result picture": {
       "localizations": {
         "pl": {
@@ -1331,6 +1721,16 @@
         }
       }
     },
+    "Size, mode and card of the test. The two buttons copy the result as a picture or save it as PNG.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rozmiar, tryb i karta testu. Dwa przyciski kopiują wynik jako obrazek albo zapisują go jako PNG."
+          }
+        }
+      }
+    },
     "Skip This Version": {
       "localizations": {
         "pl": {
@@ -1347,6 +1747,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Spadek poniżej"
+          }
+        }
+      }
+    },
+    "Slower Than sets what counts as slowing down: the best speed this card has had on this Mac (the default; Reset forgets it, e.g. after moving to another switch) or a fixed 1, 2.5, 5 or 10 Gb/s. A speed has to hold for 3 s before it counts.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "„Spadek poniżej” ustala, co liczy się jako spadek: najlepsza prędkość tej karty na tym Macu (domyślnie; „Wyzeruj” ją zapomina, np. po przepięciu do innego switcha) albo stałe 1, 2,5, 5 lub 10 Gb/s. Prędkość musi utrzymać się 3 s, zanim się liczy."
           }
         }
       }
@@ -1397,6 +1807,26 @@
           "stringUnit": {
             "state": "translated",
             "value": "Testuj"
+          }
+        }
+      }
+    },
+    "Test runs a quick test with the last settings; the last result is shown under it.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "„Testuj” robi szybki test z ostatnimi ustawieniami; pod spodem ostatni wynik."
+          }
+        }
+      }
+    },
+    "Test starts it, Stop ends it at any moment. The test file is always removed on both sides.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "„Testuj” zaczyna, „Przerwij” kończy w każdej chwili. Plik testowy zawsze znika po obu stronach."
           }
         }
       }
@@ -1491,6 +1921,36 @@
         }
       }
     },
+    "The icon in the menu bar": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ikonka na pasku menu"
+          }
+        }
+      }
+    },
+    "The icon is a network port in the colour of the link speed, so you see at once when the cable or the switch slows things down.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ikonka to gniazdo sieciowe w kolorze prędkości łącza, więc od razu widać, gdy kabel albo switch spowalnia."
+          }
+        }
+      }
+    },
+    "The link of the watched card, its name and address.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Łącze pilnowanej karty, jej nazwa i adres."
+          }
+        }
+      }
+    },
     "The link runs half duplex — the two ends negotiated badly. Replug the cable or set the switch port to Auto.": {
       "localizations": {
         "pl": {
@@ -1531,12 +1991,72 @@
         }
       }
     },
+    "The result picture names no device unless you allow it in the settings. The history stays on this Mac. Updates are checked once a month, only while that is turned on in the settings.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Obrazek z wynikiem nie nazywa urządzeń, chyba że pozwolisz na to w ustawieniach. Historia zostaje na tym Macu. Aktualizacje są sprawdzane raz w miesiącu i tylko wtedy, gdy włączysz to w ustawieniach."
+          }
+        }
+      }
+    },
+    "The server the test goes to, and its name in the results.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Serwer, do którego idzie test, i jego nazwa w wynikach."
+          }
+        }
+      }
+    },
+    "The server, the size (1, 2, 5 or 10 GB) and Through — the card the test goes over.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Serwer, rozmiar (1, 2, 5 albo 10 GB) i „Przez” — karta, przez którą idzie test."
+          }
+        }
+      }
+    },
+    "The warning. Click it for the details.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ostrzeżenie. Kliknij je, żeby zobaczyć szczegóły."
+          }
+        }
+      }
+    },
+    "The watched card, its link speed and its address.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pilnowana karta, prędkość jej łącza i adres."
+          }
+        }
+      }
+    },
     "This Mac": {
       "localizations": {
         "pl": {
           "stringUnit": {
             "state": "translated",
             "value": "Ten Mac"
+          }
+        }
+      }
+    },
+    "This Mac: the name used in results. Detect brings back the system's name.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ten Mac: nazwa w wynikach. „Wykryj” przywraca nazwę z systemu."
           }
         }
       }
@@ -1561,12 +2081,32 @@
         }
       }
     },
+    "Through: Automatically lets the system choose the way; a particular Ethernet or Wi‑Fi card with an address forces the test over that card. A network folder always goes the system's way. 1 MB = 10⁶ bytes. SSH encryption takes its share: on a 5 GbE link expect about 400–460 MB/s rather than the line's ~590 MB/s.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "„Przez”: „Automatycznie” zostawia wybór drogi systemowi; konkretna karta Ethernet albo Wi‑Fi z adresem wymusza test przez nią. Folder sieciowy zawsze idzie drogą systemu. 1 MB = 10⁶ bajtów. Szyfrowanie SSH zabiera swoje: na łączu 5 GbE spodziewaj się ok. 400–460 MB/s zamiast ~590 MB/s samej linii."
+          }
+        }
+      }
+    },
     "Time": {
       "localizations": {
         "pl": {
           "stringUnit": {
             "state": "translated",
             "value": "Czas"
+          }
+        }
+      }
+    },
+    "Turn on Receive tests from other Macs on the second Mac. It shows a 6-digit code; pair it on the first Mac from the servers found on the network. No SSH needed.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Na drugim Macu włącz „Przyjmuj testy od innych Maków”. Pokaże sześciocyfrowy kod; na pierwszym Macu sparuj go z serwerów znalezionych w sieci. SSH nie jest potrzebne."
           }
         }
       }
@@ -1611,6 +2151,16 @@
         }
       }
     },
+    "Upload and download over time.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wysyłanie i pobieranie w czasie."
+          }
+        }
+      }
+    },
     "Uploading": {
       "localizations": {
         "pl": {
@@ -1651,12 +2201,82 @@
         }
       }
     },
+    "Watched Card: which card the icon watches, wired or Wi‑Fi.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pilnowana karta: którą kartę pokazuje ikonka, kablową albo Wi‑Fi."
+          }
+        }
+      }
+    },
+    "What is wrong and what to check — usually the cable or the switch port.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Co jest nie tak i co sprawdzić — zwykle kabel albo port switcha."
+          }
+        }
+      }
+    },
+    "What stays private": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Co zostaje prywatne"
+          }
+        }
+      }
+    },
+    "What the card reports: its top speed, duplex, flow control, energy saving (EEE), MTU and errors.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Co podaje karta: najwyższą prędkość, dupleks, kontrolę przepływu, oszczędzanie energii (EEE), MTU i błędy."
+          }
+        }
+      }
+    },
     "When": {
       "localizations": {
         "pl": {
           "stringUnit": {
             "state": "translated",
             "value": "Kiedy"
+          }
+        }
+      }
+    },
+    "When the link is slower": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gdy łącze jest wolniejsze"
+          }
+        }
+      }
+    },
+    "When the link runs slower than the card can, at half duplex, or with errors, an orange warning appears next to the speed.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gdy łącze działa wolniej, niż potrafi karta, w półdupleksie albo z błędami, obok prędkości pojawia się pomarańczowe ostrzeżenie."
+          }
+        }
+      }
+    },
+    "Why not the full line speed": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Czemu nie pełna prędkość linii"
           }
         }
       }
@@ -1681,6 +2301,16 @@
         }
       }
     },
+    "With the Wi‑Fi card chosen in the settings, the icon becomes a Wi‑Fi sign in the same colours.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Gdy w ustawieniach wybierzesz kartę Wi‑Fi, ikonka zmienia się w znak Wi‑Fi w tych samych kolorach."
+          }
+        }
+      }
+    },
     "Wi‑Fi %@ Mb/s": {
       "localizations": {
         "pl": {
@@ -1697,6 +2327,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Prędkość Wi‑Fi cały czas się zmienia, więc przy Wi‑Fi NetTorque powiadamia tylko o utracie połączenia."
+          }
+        }
+      }
+    },
+    "Wi‑Fi colours follow the radio's transmit rate: 600 Mb/s and more blue, 2000 green, 4000 orange, 8000 purple, below that grey. An idle radio slows down, so the icon shows the best rate of the last minute. The icon pulses while a test runs. In the settings, In the Menu Bar can put the link speed (\"5G\") or the last result (\"↑405 ↓464\") next to it.": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kolory Wi‑Fi idą za prędkością nadawania radia: od 600 Mb/s niebieski, 2000 zielony, 4000 pomarańczowy, 8000 fioletowy, poniżej szary. Bezczynne radio zwalnia, więc ikonka pokazuje najlepszą prędkość z ostatniej minuty. W trakcie testu ikonka pulsuje. W ustawieniach „Na pasku menu” dokłada obok niej prędkość łącza („5G”) albo ostatni wynik („↑405 ↓464”)."
           }
         }
       }
@@ -2107,6 +2747,26 @@
           "stringUnit": {
             "state": "translated",
             "value": "zapis się przerwał"
+          }
+        }
+      }
+    },
+    "↑ Upload, from the Mac to the server, in the Mac's colour (blue).": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "↑ Wysyłanie, z Maca na serwer, w kolorze Maca (niebieski)."
+          }
+        }
+      }
+    },
+    "↓ Download, from the server to the Mac, in the server's colour (green).": {
+      "localizations": {
+        "pl": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "↓ Pobieranie, z serwera na Maca, w kolorze serwera (zielony)."
           }
         }
       }

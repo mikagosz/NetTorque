@@ -265,4 +265,23 @@ expect(TestController.sshHint("ssh: connect to host 192.0.2.10 port 22: No route
        "SSH: brak trasy → podpowiedź o Sieci lokalnej (0.1.43)")
 expect(TestController.sshHint("ssh: connect to host 192.0.2.10 port 22: Operation timed out", host: "192.0.2.10") == nil, "SSH: przekroczony czas bez podpowiedzi o Sieci lokalnej")
 
+// Help: every text of the Help window has a Polish translation in the string catalog.
+if let data = FileManager.default.contents(atPath: "NetTorque/Localizable.xcstrings"),
+   let catalog = try? JSONSerialization.jsonObject(with: data) as? [String: Any],
+   let strings = catalog["strings"] as? [String: Any] {
+    var missing = 0
+    for key in Set(HelpContent.allStrings + ["NetTorque Help", "NetTorque Help…", "Help", "Backup"]) {
+        let pl = ((strings[key] as? [String: Any])?["localizations"] as? [String: Any])?["pl"] as? [String: Any]
+        let unit = pl?["stringUnit"] as? [String: Any]
+        if (unit?["value"] as? String)?.isEmpty != false || unit?["state"] as? String != "translated" {
+            missing += 1
+            print("BRAK tłumaczenia Pomocy: \(key)")
+        }
+    }
+    expect(missing == 0, "Pomoc: \(missing) tekstów bez polskiego tłumaczenia")
+    for s in HelpContent.sections { expect((1...4).contains(s.steps.count), "Pomoc: 1–4 kroki w sekcji \(s.title)") }
+} else {
+    expect(false, "Pomoc: nie da się odczytać NetTorque/Localizable.xcstrings")
+}
+
 if failures == 0 { print("Testy: OK") } else { print("Testy: \(failures) błędów"); exit(1) }

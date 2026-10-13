@@ -6,9 +6,11 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
     private let controller = TestController()
     private lazy var settings = SettingsWindow(controller: controller)
     private lazy var history = HistoryWindow(controller: controller)
+    private lazy var help = HelpWindow()
     private lazy var window = TestWindow(controller: controller,
                                          openSettings: { [weak self] in self?.settings.show() },
-                                         openHistory: { [weak self] in self?.history.show() })
+                                         openHistory: { [weak self] in self?.history.show() },
+                                         openHelp: { [weak self] in self?.help.show() })
     private let statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.variableLength)
     private let menu = NSMenu()
     private var observers: [AnyCancellable] = []
@@ -59,6 +61,8 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
             entry(String(localized: "Minimize"), #selector(NSWindow.performMiniaturize(_:)), "m"),
             entry(String(localized: "Close"), #selector(NSWindow.performClose(_:)), "w"),
         ])
+        submenu(String(localized: "Help"), [entry(String(localized: "NetTorque Help"), #selector(openHelp), "?", target: self)])
+        NSApp.helpMenu = main.items.last?.submenu
         return main
     }
 
@@ -85,6 +89,8 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
 
     func applicationDidFinishLaunching(_ notification: Notification) {
         menu.delegate = self
+        // `open NetTorque.app --args --show-help`: start with the Help window open.
+        if CommandLine.arguments.contains("--show-help") { DispatchQueue.main.async { self.help.show() } }
         if let button = statusItem.button {
             button.target = self
             button.action = #selector(clicked)
@@ -156,6 +162,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
         menu.addItem(item(String(localized: "Open NetTorque Window…"), #selector(openWindow), "o"))
         menu.addItem(item(String(localized: "History…"), #selector(openHistory), "y"))
         menu.addItem(item(String(localized: "Settings…"), #selector(openSettings), ","))
+        menu.addItem(item(String(localized: "NetTorque Help…"), #selector(openHelp), ""))
         menu.addItem(withTitle: String(localized: "Quit NetTorque"), action: #selector(NSApplication.terminate(_:)), keyEquivalent: "q")
         menu.addItem(.separator())
         menu.addItem(info("NetTorque \(TestController.version)"))
@@ -178,6 +185,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
     @objc private func openWindow() { window.show() }
     @objc private func openSettings() { settings.show() }
     @objc private func openHistory() { history.show() }
+    @objc private func openHelp() { help.show() }
     @objc private func checkForUpdates() { Task { await Updates.shared.check(manually: true) } }
 
     // MARK: Pulse while testing

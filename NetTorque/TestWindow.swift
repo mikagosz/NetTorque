@@ -7,11 +7,14 @@ final class TestWindow {
     private let controller: TestController
     private let openSettings: () -> Void
     private let openHistory: () -> Void
+    private let openHelp: () -> Void
 
-    init(controller: TestController, openSettings: @escaping () -> Void, openHistory: @escaping () -> Void) {
+    init(controller: TestController, openSettings: @escaping () -> Void, openHistory: @escaping () -> Void,
+         openHelp: @escaping () -> Void) {
         self.controller = controller
         self.openSettings = openSettings
         self.openHistory = openHistory
+        self.openHelp = openHelp
     }
 
     func show() {
@@ -22,7 +25,7 @@ final class TestWindow {
                              backing: .buffered, defer: false)
             w.title = "NetTorque"
             w.isReleasedWhenClosed = false
-            let view = TestView(controller: controller, openSettings: openSettings, openHistory: openHistory) { [weak w] height in
+            let view = TestView(controller: controller, openSettings: openSettings, openHistory: openHistory, openHelp: openHelp) { [weak w] height in
                 guard let w else { return }
                 Self.fit(w, height: height)
             }
@@ -58,6 +61,7 @@ struct TestView: View {
     @ObservedObject var controller: TestController
     var openSettings: () -> Void = {}
     var openHistory: () -> Void = {}
+    var openHelp: () -> Void = {}
     /// Called with the height the content needs, so the window can follow it.
     var onHeight: (CGFloat) -> Void = { _ in }
     @Environment(\.colorScheme) private var scheme
@@ -100,6 +104,9 @@ struct TestView: View {
                     Button(action: openHistory) { Image(systemName: "clock.arrow.circlepath") }
                         .buttonStyle(.borderless)
                         .help("History")
+                    Button(action: openHelp) { Image(systemName: "questionmark.circle") }
+                        .buttonStyle(.borderless)
+                        .help("NetTorque Help")
                 }
                 .frame(maxHeight: .infinity, alignment: .top)
             }

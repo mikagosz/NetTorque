@@ -116,15 +116,20 @@ final class TestController: ObservableObject {
     private(set) var monitor: LinkMonitor
     /// Every finished test (Application Support/com.mikagosz.NetTorque/history.json).
     lazy var history = HistoryStore()
-    private let defaults = UserDefaults.standard
+    private let defaults: UserDefaults
     private var test: SpeedTest?
-    private let notifier = Notifier()
+    /// Made on first use (start): a controller that never starts — the Help window's sample — must not take over
+    /// the notification centre's delegate from the app's own controller.
+    private lazy var notifier = Notifier()
     private var lastLinked: LinkSpeed?        // last settled speed while connected
     private var settled: LinkSpeed = .none    // last speed that held for 3 s
     private var pending: DispatchWorkItem?
     private var afterFinish: (() -> Void)?
 
-    init() {
+    /// `defaults`: the app's own settings; the Help window passes a separate, throwaway store with sample servers,
+    /// so nothing it draws can touch the user's settings.
+    init(defaults: UserDefaults = .standard) {
+        self.defaults = defaults
         let list = (defaults.data(forKey: "servers")).flatMap { try? JSONDecoder().decode([Server].self, from: $0) }
         let merged = Self.withoutDuplicates((list?.isEmpty == false) ? list! : Self.defaultServers,
                                             selected: defaults.string(forKey: "serverID").flatMap(UUID.init(uuidString:)))
@@ -166,6 +171,7 @@ final class TestController: ObservableObject {
 
     /// "Ethernet Adapter (en5)" — the BSD name is added only when the system name lacks it.
     var interfaceName: String {
+        if let sampleCardName { return sampleCardName }
         let name = LinkMonitor.displayName(monitor.bsdName)
         return name.contains(monitor.bsdName) ? name : "\(name) (\(monitor.bsdName))"
     }
@@ -442,12 +448,15 @@ final class TestController: ObservableObject {
         afterFinish = nil
     }
 
-    #if PREVIEW
-    /// Only for rendering the window to an image while developing (swiftc -D PREVIEW).
-    func preview(link: LinkMonitor.State, outcome: SpeedTest.Outcome?, note: String?) {
+    /// Sample state for pictures of the window (the Help window, `swiftc -D PREVIEW`); never on the app's own controller.
+    func preview(link: LinkMonitor.State, outcome: SpeedTest.Outcome?, note: String?,
+                 details: LinkDetails = LinkDetails(), cardName: String? = nil) {
         self.link = link; lastOutcome = outcome; lastNote = note
+        linkDetails = details; errorsAtLinkUp = details.errors
+        sampleCardName = cardName
     }
-    #endif
+    /// The card's name in pictures of the window, instead of the system's name for a BSD name this Mac may not have.
+    private var sampleCardName: String?
 
     /// What to do about the SSH errors a first test usually meets; nil for anything else (shown as ssh says it).
     static func sshHint(_ message: String, host: String) -> String? {
