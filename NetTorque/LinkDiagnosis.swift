@@ -37,6 +37,13 @@ struct LinkDetails: Equatable {
     }
 
     init() {}
+
+    /// Apple's generic USB class drivers (NCM, ECM) list every speed up to 10G whatever the chip can do
+    /// (measured 2026-10-14: RTL8157 5G card on macOS 27.2 bound to `com.apple.driver.usb.cdc.ncm`
+    /// instead of Realtek's driver). Their supported list says nothing about the card.
+    static func trustsSupportedList(driver bundleID: String?) -> Bool {
+        !(bundleID?.hasPrefix("com.apple.driver.usb.cdc") ?? false)
+    }
 }
 
 /// A problem worth a line under the speed. Only while there is a link.

@@ -1,5 +1,6 @@
 import CoreWLAN
 import Foundation
+import IOKit
 import SystemConfiguration
 
 /// Watches one interface: reacts to the system's link notifications and re-reads every 5 s as a backstop.
@@ -172,8 +173,22 @@ final class LinkMonitor {
             }
             if !filled { supported = [] }
         }
+        if !LinkDetails.trustsSupportedList(driver: driverBundleID(name)) { supported = [] }
         let (mtu, errors) = readCounters(name)
         return LinkDetails(active: req.ifm_active, supported: supported, mtu: mtu, errors: errors)
+    }
+
+    /// Bundle ID of the driver behind the interface (the network controller above it in the IOService plane).
+    static func driverBundleID(_ name: String) -> String? {
+        let match = IOBSDNameMatching(kIOMainPortDefault, 0, name)
+        let iface = IOServiceGetMatchingService(kIOMainPortDefault, match)
+        guard iface != 0 else { return nil }
+        defer { IOObjectRelease(iface) }
+        var controller: io_registry_entry_t = 0
+        guard IORegistryEntryGetParentEntry(iface, kIOServicePlane, &controller) == KERN_SUCCESS else { return nil }
+        defer { IOObjectRelease(controller) }
+        return IORegistryEntryCreateCFProperty(controller, "CFBundleIdentifier" as CFString, kCFAllocatorDefault, 0)?
+            .takeRetainedValue() as? String
     }
 
     /// MTU and input + output errors + collisions from the AF_LINK entry of getifaddrs.

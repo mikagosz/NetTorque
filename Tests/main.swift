@@ -95,6 +95,12 @@ expect(LinkDetails(active: 0, supported: [0x80, 0x0], mtu: nil, errors: 0).maxSp
 expect(LinkDetails(active: 0, supported: [0x20 | 0x10000 | 3], mtu: nil, errors: 0).maxSpeed == nil, "rozszerzony podtyp nie udaje starego")
 
 expect(LinkHint.check(speed: .g5, details: d5, errorsBefore: 0) == [], "5G na karcie 5G — bez podpowiedzi")
+expect(!LinkDetails.trustsSupportedList(driver: "com.apple.driver.usb.cdc.ncm")
+       && !LinkDetails.trustsSupportedList(driver: "com.apple.driver.usb.cdc.ecm"), "ogólny sterownik USB Apple'a — lista się nie liczy")
+expect(LinkDetails.trustsSupportedList(driver: "com.realtek.dext.RTL815xEthernet")
+       && LinkDetails.trustsSupportedList(driver: nil), "sterownik karty albo nieznany — lista się liczy")
+expect(LinkHint.check(speed: .g5, details: LinkDetails(active: 0x500037, supported: [], mtu: 1500, errors: 0), errorsBefore: 0) == [],
+       "pusta lista (sterownik ogólny) — bez „karta obsługuje”")
 expect(LinkHint.check(speed: .g1, details: d5, errorsBefore: 0) == [.slowerThanCard(card: .g5, link: .g1)], "karta 5G na 1G — kabel/port")
 expect(LinkHint.check(speed: .none, details: d5, errorsBefore: 0) == [], "bez łącza — bez podpowiedzi")
 expect(LinkHint.check(speed: .other(megabits: nil), details: d5, errorsBefore: 0) == [], "nieznana prędkość — nie zgadujemy")
